@@ -35,9 +35,9 @@ function Superheroe() {
           className={`card ${dato.isFlipped ? "is-flipped" : ""}`}
           onClick={() => flipCard(index)}
         >
+          <h1>{dato.name}</h1>
           <div className="card-front">
             <img src={dato.image?.url} alt={dato.name} />
-            <h1>{dato.name}</h1>
           </div>
           <div className="card-back">
             <h1>Powerstats</h1>

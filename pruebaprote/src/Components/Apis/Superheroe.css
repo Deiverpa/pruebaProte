@@ -1,11 +1,11 @@
 .Superheroe {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10px;
+
+  justify-content: center;
 }
 
 .card {
-  margin-top: 10px;
   margin-bottom: 25px;
   width: 300px;
   height: 400px;
@@ -13,10 +13,10 @@
   margin: 20px;
   transform-style: preserve-3d;
   transition: transform 0.5s;
+  margin-top: 70px;
 }
 
 h1 {
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -56,8 +56,4 @@ h1 {
   padding: 20px;
   box-sizing: border-box;
   color: #000;
-}
-
-.card-back h1 {
-  margin-top: 0;
 }
