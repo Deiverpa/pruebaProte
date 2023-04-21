@@ -6,7 +6,7 @@ import Wrapper from "./Components/Apis/Wrapper";
 function App() {
   return (
     <div className="App">
-      RETO PROTECCIÓN DEIVER
+      <h1>RETO PROTECCIÓN DEIVER</h1>
       <Wrapper></Wrapper>
     </div>
   );
